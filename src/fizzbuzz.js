@@ -8,7 +8,9 @@ For a given natural number greater than zero return:
 */
 
 function fizzbuzz(number) {
-
+if (number % 3 == 0){
+    return "fizz";
+}
 }
 
 module.exports = fizzbuzz
