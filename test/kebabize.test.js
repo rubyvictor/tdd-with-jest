@@ -1,7 +1,7 @@
 const kebabize = require("../src/kebabize");
 
-test("hereNow should be kebabized to here-now", function() {
-  expect(kebabize("hereNow")).toEqual("here-now");
+test("hiThereBatMan should be kebabized to hi-there-bat-man", function() {
+  expect(kebabize("hiThereBatMan")).toEqual("hi-there-bat-man");
 });
 
 
